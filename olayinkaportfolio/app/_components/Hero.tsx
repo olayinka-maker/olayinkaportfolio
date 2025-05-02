@@ -1,13 +1,16 @@
 import React from "react";
+import MySkillTyping from "./Typing";
+import { Sidebar } from "./sidebar";
 
 const Hero = () => {
   return (
-    <section className="flex items-center justify-center h-screen ">
+    <section className="flex  h-screen  ">
       <div className="flex flex-col items-center justify-center -mt-20 text-center">
         <h1 className="frijole-text font-extrabold text-6xl">
           Hello, I'm Ajibode Olayinka
         </h1>
-        <p className="text-2xl sniglet-text mt-4">A Frontend Developer</p>
+        <MySkillTyping />
+        <p className="text-2xl frijole-text mt-4">A Frontend Developer</p>
         <p className="text-lg sniglet-text mt-2">
           I create beautiful and functional web applications.
         </p>
